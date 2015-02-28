@@ -11,7 +11,7 @@ classdef DecodeMetric2 < Decode2
       
       function self = DecodeMetric2(srN, inPart)
          % population decoding using vector space embedding after Houghton et al. 2008
-         % with an nearest neighbour classifier
+         % with a nearest neighbour classifier
          %
          %ARGS:
          %  srN    - array of SpikeResp objects; each representing the
